@@ -12,9 +12,11 @@ import { GetSearchParams, findPizzas } from "@/lib/find-pizzas";
 export default async function Home({
   searchParams,
 }: {
-  searchParams: GetSearchParams;
+  searchParams: Promise<GetSearchParams>;
 }) {
-  const categories = await findPizzas(searchParams);
+  // Await the searchParams promise
+  const resolvedSearchParams = await searchParams;
+  const categories = await findPizzas(resolvedSearchParams);
 
   return (
     <>

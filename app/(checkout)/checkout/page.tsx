@@ -2,6 +2,7 @@
 
 import { FormProvider, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Suspense } from "react";
 
 import {
   CheckoutSidebar,
@@ -19,7 +20,7 @@ import React from "react";
 import { useSession } from "next-auth/react";
 import { Api } from "@/services/api-client";
 
-export default function CheckoutPage() {
+function CheckoutContent() {
   const [submitting, setSubmitting] = React.useState(false);
   const { totalAmount, updateItemQuantity, items, removeCartItem, loading } =
     useCart();
@@ -131,5 +132,19 @@ export default function CheckoutPage() {
         </form>
       </FormProvider>
     </Container>
+  );
+}
+
+export default function CheckoutPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex justify-center items-center min-h-[400px]">
+          Загрузка...
+        </div>
+      }
+    >
+      <CheckoutContent />
+    </Suspense>
   );
 }
