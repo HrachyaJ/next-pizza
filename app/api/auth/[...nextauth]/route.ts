@@ -17,3 +17,6 @@ export async function POST(
 ) {
   return handler(request, context);
 }
+
+// This ensures the route is treated as dynamic
+export const dynamic = "force-dynamic";
