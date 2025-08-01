@@ -20,31 +20,31 @@ interface Props {
   className?: string;
 }
 
-export const ChoosePizzaForm: React.FC<Props> = ({ 
+export const ChoosePizzaForm: React.FC<Props> = ({
   name,
-  items, 
-  imageUrl, 
+  items,
+  imageUrl,
   ingredients,
-  onSubmit, 
+  onSubmit,
   className,
   loading,
 }) => {
-  const { 
-    size, 
-    type, 
-    selectedIngredients, 
-    availableSizes, 
-    currentItemId, 
-    setSize, 
+  const {
+    size,
+    type,
+    selectedIngredients,
+    availableSizes,
+    currentItemId,
+    setSize,
     setType,
     addIngredient,
   } = usePizzaOptions(items);
 
-  const {totalPrice, textDetails} = getPizzaDetails(
+  const { totalPrice, textDetails } = getPizzaDetails(
     type,
-    size, 
-    items, 
-    ingredients, 
+    size,
+    items,
+    ingredients,
     selectedIngredients
   );
 
@@ -54,8 +54,12 @@ export const ChoosePizzaForm: React.FC<Props> = ({
     }
   };
 
+  console.log("Ingredients:", ingredients);
+  console.log("Ingredients length:", ingredients?.length);
+  console.log("First ingredient:", ingredients?.[0]);
+
   return (
-    <div className={cn(className, 'flex flex-1')}>
+    <div className={cn(className, "flex flex-1")}>
       <PizzaImage imageUrl={imageUrl} size={size} />
 
       <div className="w-[490px] bg-[#f7f6f5] p-6">
@@ -64,16 +68,16 @@ export const ChoosePizzaForm: React.FC<Props> = ({
         <p className="text-gray-400 text-sm">{textDetails}</p>
 
         <div className="flex flex-col gap-4 my-4">
-          <GroupVariants 
-            items={availableSizes} 
+          <GroupVariants
+            items={availableSizes}
             value={String(size)}
-            onClick={value => setSize(Number(value) as PizzaSize)} 
+            onClick={(value) => setSize(Number(value) as PizzaSize)}
           />
 
-          <GroupVariants 
-            items={pizzaTypes} 
+          <GroupVariants
+            items={pizzaTypes}
             value={String(type)}
-            onClick={value => setType(Number(value) as PizzaType)} 
+            onClick={(value) => setType(Number(value) as PizzaType)}
           />
         </div>
 
@@ -95,7 +99,8 @@ export const ChoosePizzaForm: React.FC<Props> = ({
         <Button
           loading={loading}
           onClick={handleClickAdd}
-          className="h-[50px] px-10 text-base rounded-[18px] w-full mt-6">
+          className="h-[50px] px-10 text-base rounded-[18px] w-full mt-6"
+        >
           Добавить в корзину за {totalPrice} ₽
         </Button>
       </div>

@@ -4,6 +4,13 @@ import path from "path";
 
 const prisma = new PrismaClient();
 
+// Helper function to get random items from an array
+function getRandomItems<T>(array: T[], min: number, max: number): T[] {
+  const count = Math.floor(Math.random() * (max - min + 1)) + min;
+  const shuffled = [...array].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
+}
+
 async function main() {
   console.log("🌱 Starting seed...");
 
@@ -74,7 +81,52 @@ async function main() {
       }
     }
 
-    // 6. Stories
+    // 6. Link Pizzas with Random Ingredients
+    console.log("🍕🥬 Linking pizzas with random ingredients...");
+
+    // Get all products and ingredients from database
+    const allProducts = await prisma.product.findMany({
+      include: { items: true },
+    });
+    const allIngredients = await prisma.ingredient.findMany();
+
+    if (allIngredients.length > 0) {
+      let pizzaCount = 0;
+
+      for (const product of allProducts) {
+        // Check if this product is a pizza (has items with pizzaType)
+        const isPizza = product.items.some((item) => item.pizzaType !== null);
+
+        if (isPizza) {
+          // Randomly select 3-8 ingredients for each pizza
+          const randomIngredients = getRandomItems(allIngredients, 3, 8);
+
+          await prisma.product.update({
+            where: { id: product.id },
+            data: {
+              ingredients: {
+                connect: randomIngredients.map((ingredient) => ({
+                  id: ingredient.id,
+                })),
+              },
+            },
+          });
+
+          pizzaCount++;
+          console.log(
+            `  ✅ Linked ${randomIngredients.length} ingredients to "${product.name}"`
+          );
+        }
+      }
+
+      console.log(
+        `🎉 Successfully linked ingredients to ${pizzaCount} pizzas!`
+      );
+    } else {
+      console.log("⚠️ No ingredients found to link with pizzas");
+    }
+
+    // 7. Stories
     if (data.stories && data.stories.length > 0) {
       console.log(`📖 Seeding ${data.stories.length} stories...`);
       for (const story of data.stories) {
@@ -82,7 +134,7 @@ async function main() {
       }
     }
 
-    // 7. Story Items
+    // 8. Story Items
     if (data.storyItems && data.storyItems.length > 0) {
       console.log(`📄 Seeding ${data.storyItems.length} story items...`);
       for (const item of data.storyItems) {
@@ -90,7 +142,7 @@ async function main() {
       }
     }
 
-    // 8. Carts
+    // 9. Carts
     if (data.carts && data.carts.length > 0) {
       console.log(`🛒 Seeding ${data.carts.length} carts...`);
       for (const cart of data.carts) {
@@ -98,7 +150,7 @@ async function main() {
       }
     }
 
-    // 9. Cart Items
+    // 10. Cart Items
     if (data.cartItems && data.cartItems.length > 0) {
       console.log(`🛍️ Seeding ${data.cartItems.length} cart items...`);
       for (const item of data.cartItems) {
@@ -106,7 +158,7 @@ async function main() {
       }
     }
 
-    // 10. Orders
+    // 11. Orders
     if (data.orders && data.orders.length > 0) {
       console.log(`📋 Seeding ${data.orders.length} orders...`);
       for (const order of data.orders) {
@@ -114,7 +166,7 @@ async function main() {
       }
     }
 
-    // 11. Verification Codes
+    // 12. Verification Codes
     if (data.verificationCodes && data.verificationCodes.length > 0) {
       console.log(
         `🔐 Seeding ${data.verificationCodes.length} verification codes...`

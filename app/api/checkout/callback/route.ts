@@ -1,11 +1,11 @@
-import { PaymentCallbackData } from '@/@types/yookassa';
-import { prisma } from '@/prisma/prisma-client';
-import { sendEmail } from '@/lib';
-import { CartItemDTO } from '@/services/dto/cart.dto';
-import { OrderStatus } from '@prisma/client';
-import { NextRequest, NextResponse } from 'next/server';
-import { OrderSuccessTemplate } from '@/components/shared/email/order-success';
-import { OrderFailureTemplate } from '@/components/shared/email/order-failure-template';
+import { PaymentCallbackData } from "@/@types/yookassa";
+import { prisma } from "@/prisma/prisma-client";
+import { sendEmail } from "@/lib";
+import { CartItemDTO } from "@/services/dto/cart.dto";
+import { OrderStatus } from "@prisma/client";
+import { NextRequest, NextResponse } from "next/server";
+import { OrderSuccessTemplate } from "@/components/shared/email/order-success";
+import { OrderFailureTemplate } from "@/components/shared/email/order-failure-template";
 
 export async function POST(req: NextRequest) {
   try {
@@ -18,10 +18,10 @@ export async function POST(req: NextRequest) {
     });
 
     if (!order) {
-      return NextResponse.json({ error: 'Order not found' });
+      return NextResponse.json({ error: "Order not found" });
     }
 
-    const isSucceeded = body.object.status === 'succeeded';
+    const isSucceeded = body.object.status === "succeeded";
 
     await prisma.order.update({
       where: {
@@ -37,20 +37,20 @@ export async function POST(req: NextRequest) {
     if (isSucceeded) {
       await sendEmail(
         order.email,
-        'Next Pizza / Your order is completed successfully 🎉',
-        await OrderSuccessTemplate({ orderId: order.id, items }),
+        "Next Pizza / Ваш заказ успешно оформлен 🎉",
+        await OrderSuccessTemplate({ orderId: order.id, items })
       );
     } else {
       await sendEmail(
         order.email,
-        'Next Pizza / Order Payment Error ❌',
-        await OrderFailureTemplate({ orderId: order.id, items }),
+        "Next Pizza / Order Payment Error ❌",
+        await OrderFailureTemplate({ orderId: order.id, items })
       );
     }
-    
+
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.log('[Checkout Callback] Error:', error);
-    return NextResponse.json({ error: 'Server error' });
+    console.log("[Checkout Callback] Error:", error);
+    return NextResponse.json({ error: "Server error" });
   }
 }

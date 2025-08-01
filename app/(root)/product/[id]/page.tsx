@@ -5,9 +5,9 @@ import { notFound } from "next/navigation";
 export default async function ProductPage({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: { id: string };
 }) {
-  const { id } = await params;
+  const { id } = params;
 
   const product = await prisma.product.findFirst({
     where: { id: Number(id) },
@@ -25,6 +25,11 @@ export default async function ProductPage({
       items: true,
     },
   });
+
+  // Add this debugging
+  console.log("Product ID:", id);
+  console.log("Product ingredients:", product?.ingredients);
+  console.log("Product ingredients length:", product?.ingredients?.length);
 
   if (!product) {
     return notFound();
