@@ -1,0 +1,1959 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Пиццы",
+      "createdAt": "2025-07-27T14:02:58.835Z",
+      "updatedAt": "2025-07-27T14:02:58.835Z"
+    },
+    {
+      "id": 2,
+      "name": "Завтрак",
+      "createdAt": "2025-07-27T14:02:58.835Z",
+      "updatedAt": "2025-07-27T14:02:58.835Z"
+    },
+    {
+      "id": 3,
+      "name": "Закуски",
+      "createdAt": "2025-07-27T14:02:58.835Z",
+      "updatedAt": "2025-07-27T14:02:58.835Z"
+    },
+    {
+      "id": 4,
+      "name": "Коктейли",
+      "createdAt": "2025-07-27T14:02:58.835Z",
+      "updatedAt": "2025-07-27T14:02:58.835Z"
+    },
+    {
+      "id": 5,
+      "name": "Кофе",
+      "createdAt": "2025-07-27T14:02:58.835Z",
+      "updatedAt": "2025-07-27T14:11:52.923Z"
+    },
+    {
+      "id": 6,
+      "name": "Напитки",
+      "createdAt": "2025-07-27T14:13:24.665Z",
+      "updatedAt": "2025-07-27T14:20:37.130Z"
+    },
+    {
+      "id": 7,
+      "name": "Десерты",
+      "createdAt": "2025-07-27T15:08:29.102Z",
+      "updatedAt": "2025-07-27T15:08:04.827Z"
+    },
+    {
+      "id": 8,
+      "name": "Соусы",
+      "createdAt": "2025-07-27T15:09:45.240Z",
+      "updatedAt": "2025-07-27T15:11:19.077Z"
+    },
+    {
+      "id": 9,
+      "name": "Комбо",
+      "createdAt": "2025-07-27T15:11:36.829Z",
+      "updatedAt": "2025-07-27T15:12:13.464Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Омлет с ветчиной и грибами",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7970321044479C1D1085457A36EB.webp",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T14:03:00.278Z",
+      "updatedAt": "2025-07-27T14:03:00.278Z"
+    },
+    {
+      "id": 2,
+      "name": "Омлет с пепперони",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE94ECF33B0C46BA410DEC1B1DD6F8.webp",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T14:03:00.640Z",
+      "updatedAt": "2025-07-27T14:03:00.640Z"
+    },
+    {
+      "id": 3,
+      "name": "Кофе Латте",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T14:03:00.821Z",
+      "updatedAt": "2025-07-27T14:03:00.821Z"
+    },
+    {
+      "id": 6,
+      "name": "Картофель из печи с соусом 🌱",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EED646A9CD324C962C6BEA78124F19.webp",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T14:03:01.364Z",
+      "updatedAt": "2025-07-27T14:03:01.364Z"
+    },
+    {
+      "id": 7,
+      "name": "Додстер",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE796F96D11392A2F6DD73599921B9.webp",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T14:03:01.545Z",
+      "updatedAt": "2025-07-27T14:03:01.545Z"
+    },
+    {
+      "id": 8,
+      "name": "Острый Додстер 🌶️🌶️",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE796FD3B594068F7A752DF8161D04.webp",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T14:03:01.726Z",
+      "updatedAt": "2025-07-27T14:03:01.726Z"
+    },
+    {
+      "id": 13,
+      "name": "Ирландский Капучино",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61999EBDA59C10E216430A6093.webp",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:03:02.640Z",
+      "updatedAt": "2025-07-27T14:03:02.640Z"
+    },
+    {
+      "id": 14,
+      "name": "Кофе Карамельный капучино",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61AED6B6D4BFDAD4E58D76CF56.webp",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:03:02.822Z",
+      "updatedAt": "2025-07-27T14:03:02.822Z"
+    },
+    {
+      "id": 15,
+      "name": "Кофе Кокосовый латте",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61B19FA07090EE88B0ED347F42.webp",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:03:03.002Z",
+      "updatedAt": "2025-07-27T14:03:03.002Z"
+    },
+    {
+      "id": 16,
+      "name": "Кофе Американо",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61B044583596548A59078BBD33.webp",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:03:03.184Z",
+      "updatedAt": "2025-07-27T14:03:03.184Z"
+    },
+    {
+      "id": 17,
+      "name": "Кофе Латте",
+      "imageUrl": "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:03:03.365Z",
+      "updatedAt": "2025-07-27T14:03:03.365Z"
+    },
+    {
+      "id": 18,
+      "name": "Пепперони Фреш",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d612fc7b7fca5be822752bee1e5.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-27T14:03:03.547Z",
+      "updatedAt": "2025-07-27T14:03:03.547Z"
+    },
+    {
+      "id": 19,
+      "name": "Сырная",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d610d2925109ab2e1c92cc5383c.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-27T14:03:05.356Z",
+      "updatedAt": "2025-07-27T14:03:05.356Z"
+    },
+    {
+      "id": 21,
+      "name": "Добрый Кола",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980e8d35af7157a519bd92cabda4f7.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T14:23:31.386Z",
+      "updatedAt": "2025-07-27T14:22:45.125Z"
+    },
+    {
+      "id": 40,
+      "name": "Тысяча островов",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980cbdbaef76e1b1aec6df48c66b64.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:34:26.561Z",
+      "updatedAt": "2025-07-27T15:34:09.724Z"
+    },
+    {
+      "id": 22,
+      "name": "Кофе Ореховый латте",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d61b12220ab911ff4fa42ef585d.avif",
+      "categoryId": 5,
+      "createdAt": "2025-07-27T14:28:19.997Z",
+      "updatedAt": "2025-07-27T14:52:32.564Z"
+    },
+    {
+      "id": 23,
+      "name": "Добрый Апельсин",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f8636ad574528ad8136969ef6446.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T15:01:53.622Z",
+      "updatedAt": "2025-07-27T15:01:19.291Z"
+    },
+    {
+      "id": 24,
+      "name": "Добрый Лимон-Лайм",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86321497340b0a98da0a428d7ce.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T15:03:18.164Z",
+      "updatedAt": "2025-07-27T15:02:55.408Z"
+    },
+    {
+      "id": 25,
+      "name": "Нектар Добрый апельсин",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980d4f28e575df80d1bfe852522d32.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T15:05:08.256Z",
+      "updatedAt": "2025-07-27T15:04:43.386Z"
+    },
+    {
+      "id": 26,
+      "name": "Нектар Добрый мультифрукт",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86779ad7937990dab2a0fb51377.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T15:05:50.438Z",
+      "updatedAt": "2025-07-27T15:05:39.418Z"
+    },
+    {
+      "id": 27,
+      "name": "Сок Добрый Яблоко",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f866677d77d580aa9f99dd242835.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T15:06:36.056Z",
+      "updatedAt": "2025-07-27T15:06:24.976Z"
+    },
+    {
+      "id": 20,
+      "name": "Чоризо Фреш",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d61706d472f9a5d71eb94149304.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-27T14:03:06.432Z",
+      "updatedAt": "2025-07-27T15:18:36.294Z"
+    },
+    {
+      "id": 28,
+      "name": "Чизкейк Дубайский",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/019813870ad07105b599cac0c9b1e04c.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:20:03.786Z",
+      "updatedAt": "2025-07-27T15:19:34.971Z"
+    },
+    {
+      "id": 29,
+      "name": "Чизкейк Нью-Йорк",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/019840ba1e6078459e4aa5777065f0bc.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:21:47.281Z",
+      "updatedAt": "2025-07-27T15:21:37.880Z"
+    },
+    {
+      "id": 30,
+      "name": "Тирамису",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980cc3481c78e288c9a989de2dbdc6.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:23:58.045Z",
+      "updatedAt": "2025-07-27T15:23:38.825Z"
+    },
+    {
+      "id": 31,
+      "name": "Черничный маффин",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980cc513e77702a7d440f89b7fba9f.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:25:51.184Z",
+      "updatedAt": "2025-07-27T15:26:44.639Z"
+    },
+    {
+      "id": 33,
+      "name": "Маффин Три шоколада",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980cc4cebb707a9b91ba24195fee1d.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:28:02.744Z",
+      "updatedAt": "2025-07-27T15:27:34.706Z"
+    },
+    {
+      "id": 34,
+      "name": "Эклеры-мини с заварным кремом",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980d424635774694fd7ce57e4a91b1.avif",
+      "categoryId": 7,
+      "createdAt": "2025-07-27T15:29:04.155Z",
+      "updatedAt": "2025-07-27T15:28:51.211Z"
+    },
+    {
+      "id": 35,
+      "name": "Малиновое варенье",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86a743777209156e78285b05bef.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:30:35.544Z",
+      "updatedAt": "2025-07-27T15:30:15.797Z"
+    },
+    {
+      "id": 36,
+      "name": "Медово-горчичный",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86aea5a71a696a29c4dc5286c71.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:31:26.896Z",
+      "updatedAt": "2025-07-27T15:31:10.557Z"
+    },
+    {
+      "id": 37,
+      "name": "Барбекю",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86a9e7a7766a15028ff1fa74e4b.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:32:02.777Z",
+      "updatedAt": "2025-07-27T15:31:49.446Z"
+    },
+    {
+      "id": 38,
+      "name": "Чесночный",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86b0d7d744992dae61761c9ba0d.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:32:40.363Z",
+      "updatedAt": "2025-07-27T15:32:25.005Z"
+    },
+    {
+      "id": 39,
+      "name": "Сырный",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f86ac30a734eb384d710bb1789f3.avif",
+      "categoryId": 8,
+      "createdAt": "2025-07-27T15:33:22.747Z",
+      "updatedAt": "2025-07-27T15:33:12.933Z"
+    },
+    {
+      "id": 41,
+      "name": "Салат и закуска",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/01978c553929716fb342d41f33c3942a.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:36:52.944Z",
+      "updatedAt": "2025-07-27T15:37:56.820Z"
+    },
+    {
+      "id": 42,
+      "name": "2 соуса",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/0197f86b435777ec822337a4289ccee7.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:40:34.914Z",
+      "updatedAt": "2025-07-27T15:40:22.436Z"
+    },
+    {
+      "id": 43,
+      "name": "2 фирменные закуски",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/01981db0f4ec73c4986c1e55d860f53b.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:41:34.682Z",
+      "updatedAt": "2025-07-27T15:41:24.187Z"
+    },
+    {
+      "id": 44,
+      "name": "Завтрак на двоих",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/0195961e5fa872078ea9ad5524ba05d4.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:42:18.069Z",
+      "updatedAt": "2025-07-27T15:42:09.460Z"
+    },
+    {
+      "id": 45,
+      "name": "2 напитка",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/01980e8dad62703bb169ba6f96c60eb3.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:44:52.925Z",
+      "updatedAt": "2025-07-27T15:44:38.500Z"
+    },
+    {
+      "id": 46,
+      "name": "Пицца и напиток",
+      "imageUrl": "https://media.dodostatic.net/image/r:1875x1875/0197c001ff39748ea72e0da6db8b13f0.avif",
+      "categoryId": 9,
+      "createdAt": "2025-07-27T15:45:53.174Z",
+      "updatedAt": "2025-07-27T15:45:36.206Z"
+    },
+    {
+      "id": 11,
+      "name": "Молочный коктейль с печеньем Орео",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227b830478b599cefb215fad4e36.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T14:03:02.269Z",
+      "updatedAt": "2025-07-27T15:50:36.029Z"
+    },
+    {
+      "id": 5,
+      "name": "Куриные наггетсы",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198131dce8b706bb3ed5a169df1bc84.avif",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T14:03:01.183Z",
+      "updatedAt": "2025-07-27T15:56:05.648Z"
+    },
+    {
+      "id": 4,
+      "name": "Дэнвич ветчина и сыр",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01981c62f14f719eaed738a2d74b0fc4.avif",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T14:03:01.002Z",
+      "updatedAt": "2025-07-27T15:56:05.648Z"
+    },
+    {
+      "id": 51,
+      "name": "Сырники с малиновым вареньем",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980d410d667733968cd0731f058f97.avif",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T15:58:10.600Z",
+      "updatedAt": "2025-07-27T15:57:56.942Z"
+    },
+    {
+      "id": 52,
+      "name": "Сырники со сгущенным молоком",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980d419be874a5abd2ce54dcac236f.avif",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T15:58:43.233Z",
+      "updatedAt": "2025-07-27T15:58:33.770Z"
+    },
+    {
+      "id": 56,
+      "name": "Гавайская",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d617e9339cfb185921a343ad8fd.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-27T16:15:03.862Z",
+      "updatedAt": "2025-07-27T16:09:05.942Z"
+    },
+    {
+      "id": 12,
+      "name": "Классический молочный коктейль 👶",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227af85e7443b2a25aa7e79aea7a.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T14:03:02.450Z",
+      "updatedAt": "2025-07-27T15:50:36.029Z"
+    },
+    {
+      "id": 10,
+      "name": "Клубничный молочный коктейль",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227d306776d897d4781cc1a225bd.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T14:03:02.088Z",
+      "updatedAt": "2025-07-27T15:50:36.029Z"
+    },
+    {
+      "id": 9,
+      "name": "Персиковый молочный коктейль",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227c07ae7244ad5deb11b2169dfb.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T14:03:01.907Z",
+      "updatedAt": "2025-07-27T15:50:36.029Z"
+    },
+    {
+      "id": 47,
+      "name": "Шоколадный молочный коктейль",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227a5584782da0705172f28058a6.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T15:51:08.463Z",
+      "updatedAt": "2025-07-27T15:50:58.491Z"
+    },
+    {
+      "id": 48,
+      "name": "Молочный коктейль Фисташка",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0198227c9627795b991b79142c0e3ba0.avif",
+      "categoryId": 4,
+      "createdAt": "2025-07-27T15:51:56.828Z",
+      "updatedAt": "2025-07-27T15:51:47.589Z"
+    },
+    {
+      "id": 49,
+      "name": "Креветки",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980e9159aa74ca93e7daaa7db3e9fd.avif",
+      "categoryId": 3,
+      "createdAt": "2025-07-27T15:56:05.648Z",
+      "updatedAt": "2025-07-27T15:55:52.716Z"
+    },
+    {
+      "id": 50,
+      "name": "Сырники",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/01980d4050e8787b9f4a8c22c2d45cb5.avif",
+      "categoryId": 2,
+      "createdAt": "2025-07-27T15:57:33.959Z",
+      "updatedAt": "2025-07-27T15:57:23.825Z"
+    },
+    {
+      "id": 53,
+      "name": "Rich Tea Зеленый",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f868ed507997948b292b5ad77228.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T16:04:59.023Z",
+      "updatedAt": "2025-07-27T16:04:33.772Z"
+    },
+    {
+      "id": 54,
+      "name": "Напиток сокосодержащий Pulpy Апельсин",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f868428771579fc8f8bb78c76308.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T16:05:57.716Z",
+      "updatedAt": "2025-07-27T16:05:46.622Z"
+    },
+    {
+      "id": 55,
+      "name": "Лимонад Арбузный лайм",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0197f865f0a872f0874fb8caa5cb293a.avif",
+      "categoryId": 6,
+      "createdAt": "2025-07-27T16:06:34.555Z",
+      "updatedAt": "2025-07-27T16:06:22.381Z"
+    },
+    {
+      "id": 57,
+      "name": "Мясной микс с говядиной и колбасками",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0194d4f6904975a5a6427e297591980d.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T10:29:31.751Z",
+      "updatedAt": "2025-07-29T10:28:35.543Z"
+    },
+    {
+      "id": 58,
+      "name": "Овощи и грибы",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d61546d8483a61a0bbaa7adcc78.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T10:56:19.272Z"
+    },
+    {
+      "id": 59,
+      "name": "Четыре сезона",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d611adf5aad898b8b651186e023.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T10:57:06.447Z"
+    },
+    {
+      "id": 60,
+      "name": "Диабло",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d6149eb101d8727573088fa2eff.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T10:57:29.502Z"
+    },
+    {
+      "id": 61,
+      "name": "Маргарита",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d6105ef6690b86fbde6150b5b0c.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T10:57:44.670Z"
+    },
+    {
+      "id": 62,
+      "name": "Сырный цыпленок",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d610e8bbb248f31270be742b4bd.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:01:07.830Z"
+    },
+    {
+      "id": 63,
+      "name": "Жюльен",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/11ee7d6175c10773bfe36e56d48df7e3.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:01:14.886Z"
+    },
+    {
+      "id": 64,
+      "name": "Карбонара",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/019591b13a1a724b90092c16d9b1c05a.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:01:33.910Z"
+    },
+    {
+      "id": 65,
+      "name": "Креветки со сладким чили",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/0194d4fd39bb7352bfa5de2219e88b9b.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:02:08.919Z"
+    },
+    {
+      "id": 66,
+      "name": "Охотничья",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/019635b27c727302835040e5d7c27caa.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:02:17.631Z"
+    },
+    {
+      "id": 67,
+      "name": "Аррива",
+      "imageUrl": "https://media.dodostatic.net/image/r:760x760/019591a0591d7642b97bf6ed6da45252.avif",
+      "categoryId": 1,
+      "createdAt": "2025-07-29T11:08:25.609Z",
+      "updatedAt": "2025-07-29T11:08:13.288Z"
+    }
+  ],
+  "productItems": [
+    {
+      "id": 4,
+      "price": 506,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 19
+    },
+    {
+      "id": 5,
+      "price": 382,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 19
+    },
+    {
+      "id": 6,
+      "price": 401,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 19
+    },
+    {
+      "id": 7,
+      "price": 319,
+      "size": 20,
+      "pizzaType": 2,
+      "productId": 19
+    },
+    {
+      "id": 8,
+      "price": 437,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 19
+    },
+    {
+      "id": 9,
+      "price": 299,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 19
+    },
+    {
+      "id": 13,
+      "price": 459,
+      "size": null,
+      "pizzaType": null,
+      "productId": 1
+    },
+    {
+      "id": 14,
+      "price": 219,
+      "size": null,
+      "pizzaType": null,
+      "productId": 2
+    },
+    {
+      "id": 15,
+      "price": 443,
+      "size": null,
+      "pizzaType": null,
+      "productId": 3
+    },
+    {
+      "id": 16,
+      "price": 515,
+      "size": null,
+      "pizzaType": null,
+      "productId": 4
+    },
+    {
+      "id": 17,
+      "price": 301,
+      "size": null,
+      "pizzaType": null,
+      "productId": 5
+    },
+    {
+      "id": 18,
+      "price": 253,
+      "size": null,
+      "pizzaType": null,
+      "productId": 6
+    },
+    {
+      "id": 19,
+      "price": 571,
+      "size": null,
+      "pizzaType": null,
+      "productId": 7
+    },
+    {
+      "id": 20,
+      "price": 286,
+      "size": null,
+      "pizzaType": null,
+      "productId": 8
+    },
+    {
+      "id": 21,
+      "price": 398,
+      "size": null,
+      "pizzaType": null,
+      "productId": 9
+    },
+    {
+      "id": 23,
+      "price": 315,
+      "size": null,
+      "pizzaType": null,
+      "productId": 11
+    },
+    {
+      "id": 24,
+      "price": 528,
+      "size": null,
+      "pizzaType": null,
+      "productId": 12
+    },
+    {
+      "id": 25,
+      "price": 493,
+      "size": null,
+      "pizzaType": null,
+      "productId": 13
+    },
+    {
+      "id": 26,
+      "price": 213,
+      "size": null,
+      "pizzaType": null,
+      "productId": 14
+    },
+    {
+      "id": 27,
+      "price": 271,
+      "size": null,
+      "pizzaType": null,
+      "productId": 15
+    },
+    {
+      "id": 29,
+      "price": 263,
+      "size": null,
+      "pizzaType": null,
+      "productId": 17
+    },
+    {
+      "id": 22,
+      "price": 213,
+      "size": null,
+      "pizzaType": null,
+      "productId": 21
+    },
+    {
+      "id": 28,
+      "price": 220,
+      "size": null,
+      "pizzaType": null,
+      "productId": 22
+    },
+    {
+      "id": 30,
+      "price": 229,
+      "size": null,
+      "pizzaType": null,
+      "productId": 16
+    },
+    {
+      "id": 31,
+      "price": 213,
+      "size": null,
+      "pizzaType": null,
+      "productId": 23
+    },
+    {
+      "id": 32,
+      "price": 213,
+      "size": null,
+      "pizzaType": null,
+      "productId": 24
+    },
+    {
+      "id": 33,
+      "price": 256,
+      "size": null,
+      "pizzaType": null,
+      "productId": 25
+    },
+    {
+      "id": 34,
+      "price": 265,
+      "size": null,
+      "pizzaType": null,
+      "productId": 26
+    },
+    {
+      "id": 35,
+      "price": 265,
+      "size": null,
+      "pizzaType": null,
+      "productId": 27
+    },
+    {
+      "id": 36,
+      "price": 239,
+      "size": null,
+      "pizzaType": null,
+      "productId": 28
+    },
+    {
+      "id": 37,
+      "price": 189,
+      "size": null,
+      "pizzaType": null,
+      "productId": 29
+    },
+    {
+      "id": 38,
+      "price": 199,
+      "size": null,
+      "pizzaType": null,
+      "productId": 30
+    },
+    {
+      "id": 39,
+      "price": 129,
+      "size": null,
+      "pizzaType": null,
+      "productId": 31
+    },
+    {
+      "id": 40,
+      "price": 129,
+      "size": null,
+      "pizzaType": null,
+      "productId": 33
+    },
+    {
+      "id": 41,
+      "price": 179,
+      "size": null,
+      "pizzaType": null,
+      "productId": 34
+    },
+    {
+      "id": 42,
+      "price": 49,
+      "size": null,
+      "pizzaType": null,
+      "productId": 35
+    },
+    {
+      "id": 43,
+      "price": 59,
+      "size": null,
+      "pizzaType": null,
+      "productId": 36
+    },
+    {
+      "id": 44,
+      "price": 59,
+      "size": null,
+      "pizzaType": null,
+      "productId": 37
+    },
+    {
+      "id": 45,
+      "price": 59,
+      "size": null,
+      "pizzaType": null,
+      "productId": 38
+    },
+    {
+      "id": 46,
+      "price": 59,
+      "size": null,
+      "pizzaType": null,
+      "productId": 39
+    },
+    {
+      "id": 47,
+      "price": 59,
+      "size": null,
+      "pizzaType": null,
+      "productId": 40
+    },
+    {
+      "id": 48,
+      "price": 459,
+      "size": null,
+      "pizzaType": null,
+      "productId": 41
+    },
+    {
+      "id": 49,
+      "price": 79,
+      "size": null,
+      "pizzaType": null,
+      "productId": 42
+    },
+    {
+      "id": 50,
+      "price": 469,
+      "size": null,
+      "pizzaType": null,
+      "productId": 44
+    },
+    {
+      "id": 51,
+      "price": 439,
+      "size": null,
+      "pizzaType": null,
+      "productId": 43
+    },
+    {
+      "id": 52,
+      "price": 229,
+      "size": null,
+      "pizzaType": null,
+      "productId": 45
+    },
+    {
+      "id": 53,
+      "price": 379,
+      "size": null,
+      "pizzaType": null,
+      "productId": 46
+    },
+    {
+      "id": 54,
+      "price": 327,
+      "size": null,
+      "pizzaType": null,
+      "productId": 10
+    },
+    {
+      "id": 55,
+      "price": 321,
+      "size": null,
+      "pizzaType": null,
+      "productId": 47
+    },
+    {
+      "id": 56,
+      "price": 374,
+      "size": null,
+      "pizzaType": null,
+      "productId": 48
+    },
+    {
+      "id": 57,
+      "price": 379,
+      "size": null,
+      "pizzaType": null,
+      "productId": 49
+    },
+    {
+      "id": 58,
+      "price": 159,
+      "size": null,
+      "pizzaType": null,
+      "productId": 50
+    },
+    {
+      "id": 59,
+      "price": 179,
+      "size": null,
+      "pizzaType": null,
+      "productId": 51
+    },
+    {
+      "id": 60,
+      "price": 179,
+      "size": null,
+      "pizzaType": null,
+      "productId": 52
+    },
+    {
+      "id": 61,
+      "price": 159,
+      "size": null,
+      "pizzaType": null,
+      "productId": 53
+    },
+    {
+      "id": 62,
+      "price": 159,
+      "size": null,
+      "pizzaType": null,
+      "productId": 54
+    },
+    {
+      "id": 63,
+      "price": 149,
+      "size": null,
+      "pizzaType": null,
+      "productId": 55
+    },
+    {
+      "id": 64,
+      "price": 420,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 56
+    },
+    {
+      "id": 65,
+      "price": 638,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 56
+    },
+    {
+      "id": 66,
+      "price": 899,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 56
+    },
+    {
+      "id": 67,
+      "price": 638,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 56
+    },
+    {
+      "id": 68,
+      "price": 609,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 57
+    },
+    {
+      "id": 69,
+      "price": 899,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 57
+    },
+    {
+      "id": 70,
+      "price": 1009,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 57
+    },
+    {
+      "id": 71,
+      "price": 899,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 57
+    },
+    {
+      "id": 72,
+      "price": 1009,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 57
+    },
+    {
+      "id": 73,
+      "price": 519,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 58
+    },
+    {
+      "id": 74,
+      "price": 769,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 58
+    },
+    {
+      "id": 75,
+      "price": 969,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 58
+    },
+    {
+      "id": 76,
+      "price": 509,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 59
+    },
+    {
+      "id": 77,
+      "price": 749,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 59
+    },
+    {
+      "id": 78,
+      "price": 959,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 59
+    },
+    {
+      "id": 79,
+      "price": 749,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 59
+    },
+    {
+      "id": 80,
+      "price": 959,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 59
+    },
+    {
+      "id": 81,
+      "price": 449,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 60
+    },
+    {
+      "id": 82,
+      "price": 659,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 60
+    },
+    {
+      "id": 83,
+      "price": 829,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 60
+    },
+    {
+      "id": 84,
+      "price": 659,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 60
+    },
+    {
+      "id": 85,
+      "price": 829,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 60
+    },
+    {
+      "id": 86,
+      "price": 389,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 61
+    },
+    {
+      "id": 87,
+      "price": 459,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 61
+    },
+    {
+      "id": 88,
+      "price": 799,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 61
+    },
+    {
+      "id": 89,
+      "price": 459,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 61
+    },
+    {
+      "id": 90,
+      "price": 799,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 61
+    },
+    {
+      "id": 91,
+      "price": 449,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 62
+    },
+    {
+      "id": 92,
+      "price": 609,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 62
+    },
+    {
+      "id": 93,
+      "price": 909,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 62
+    },
+    {
+      "id": 94,
+      "price": 609,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 62
+    },
+    {
+      "id": 95,
+      "price": 909,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 62
+    },
+    {
+      "id": 96,
+      "price": 399,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 63
+    },
+    {
+      "id": 97,
+      "price": 569,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 63
+    },
+    {
+      "id": 98,
+      "price": 889,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 63
+    },
+    {
+      "id": 99,
+      "price": 569,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 63
+    },
+    {
+      "id": 100,
+      "price": 889,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 63
+    },
+    {
+      "id": 101,
+      "price": 449,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 64
+    },
+    {
+      "id": 102,
+      "price": 619,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 64
+    },
+    {
+      "id": 103,
+      "price": 969,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 64
+    },
+    {
+      "id": 104,
+      "price": 619,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 64
+    },
+    {
+      "id": 105,
+      "price": 969,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 64
+    },
+    {
+      "id": 106,
+      "price": 449,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 65
+    },
+    {
+      "id": 107,
+      "price": 619,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 65
+    },
+    {
+      "id": 108,
+      "price": 969,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 65
+    },
+    {
+      "id": 109,
+      "price": 619,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 65
+    },
+    {
+      "id": 110,
+      "price": 969,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 65
+    },
+    {
+      "id": 111,
+      "price": 439,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 66
+    },
+    {
+      "id": 112,
+      "price": 629,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 66
+    },
+    {
+      "id": 113,
+      "price": 919,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 66
+    },
+    {
+      "id": 114,
+      "price": 629,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 66
+    },
+    {
+      "id": 115,
+      "price": 919,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 66
+    },
+    {
+      "id": 116,
+      "price": 439,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 67
+    },
+    {
+      "id": 117,
+      "price": 609,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 67
+    },
+    {
+      "id": 118,
+      "price": 899,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 67
+    },
+    {
+      "id": 119,
+      "price": 609,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 67
+    },
+    {
+      "id": 120,
+      "price": 899,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 67
+    },
+    {
+      "id": 10,
+      "price": 269,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 20
+    },
+    {
+      "id": 11,
+      "price": 379,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 20
+    },
+    {
+      "id": 12,
+      "price": 639,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 20
+    },
+    {
+      "id": 121,
+      "price": 509,
+      "size": 30,
+      "pizzaType": 1,
+      "productId": 18
+    },
+    {
+      "id": 122,
+      "price": 779,
+      "size": 40,
+      "pizzaType": 1,
+      "productId": 18
+    },
+    {
+      "id": 1,
+      "price": 339,
+      "size": 20,
+      "pizzaType": 1,
+      "productId": 18
+    },
+    {
+      "id": 2,
+      "price": 509,
+      "size": 30,
+      "pizzaType": 2,
+      "productId": 18
+    },
+    {
+      "id": 3,
+      "price": 779,
+      "size": 40,
+      "pizzaType": 2,
+      "productId": 18
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Сырный бортик",
+      "price": 179,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 2,
+      "name": "Сливочная моцарелла",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 3,
+      "name": "Сыры чеддер и пармезан",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 4,
+      "name": "Острый перец халапеньо",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/11ee95b6bfdf98fb88a113db92d7b3df.png",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 5,
+      "name": "Нежный цыпленок",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 6,
+      "name": "Шампиньоны",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA67259A324",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 7,
+      "name": "Ветчина",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA61B9A8D61",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 8,
+      "name": "Пикантная пепперони",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA6258199C3",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 9,
+      "name": "Острая чоризо",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA62D5D6027",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 10,
+      "name": "Маринованные огурчики",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A21DA51A81211E9EA89958D782B",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 11,
+      "name": "Свежие томаты",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 12,
+      "name": "Красный лук",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA60AE6464C",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 13,
+      "name": "Сочные ананасы",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A21DA51A81211E9AFA6795BA2A0",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 14,
+      "name": "Итальянские травы",
+      "price": 39,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/370dac9ed21e4bffaf9bc2618d258734.png",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 15,
+      "name": "Сладкий перец",
+      "price": 59,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA63F774C1B",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 16,
+      "name": "Кубики брынзы",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA6B0FFC349",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    },
+    {
+      "id": 17,
+      "name": "Митболы",
+      "price": 79,
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Ingredients/b2f3a5d5afe44516a93cfc0d2ee60088.png",
+      "createdAt": "2025-07-27T14:02:59.554Z",
+      "updatedAt": "2025-07-27T14:02:59.554Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": 2,
+      "userId": 2,
+      "token": "2222",
+      "totalAmount": 0,
+      "createdAt": "2025-07-27T14:03:08.595Z",
+      "updatedAt": "2025-07-27T14:03:08.595Z"
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "token": "1111",
+      "totalAmount": 0,
+      "createdAt": "2025-07-27T14:03:08.595Z",
+      "updatedAt": "2025-07-27T14:06:14.301Z"
+    },
+    {
+      "id": 3,
+      "userId": null,
+      "token": "3cf6373a-e245-4b7a-8a2d-94fa4583b3a6",
+      "totalAmount": 0,
+      "createdAt": "2025-07-27T15:35:36.935Z",
+      "updatedAt": "2025-07-27T15:35:56.357Z"
+    },
+    {
+      "id": 8,
+      "userId": null,
+      "token": "ce7a35f4-7bd7-4dba-9978-798e1fd37587",
+      "totalAmount": 2274,
+      "createdAt": "2025-07-30T18:42:49.795Z",
+      "updatedAt": "2025-07-30T18:45:56.821Z"
+    },
+    {
+      "id": 9,
+      "userId": null,
+      "token": "d2c04489-8a18-4ebc-bfac-c96c554dfbea",
+      "totalAmount": 220,
+      "createdAt": "2025-07-31T08:59:53.316Z",
+      "updatedAt": "2025-07-31T08:59:59.526Z"
+    },
+    {
+      "id": 4,
+      "userId": null,
+      "token": "b9b3165f-0044-4e26-889d-1bf80b153f27",
+      "totalAmount": 0,
+      "createdAt": "2025-07-28T18:16:17.009Z",
+      "updatedAt": "2025-07-28T19:11:08.063Z"
+    },
+    {
+      "id": 5,
+      "userId": null,
+      "token": "f2b63b0b-3f4e-4ff0-8ff1-4711067205e6",
+      "totalAmount": 0,
+      "createdAt": "2025-07-29T09:47:43.744Z",
+      "updatedAt": "2025-07-29T10:48:29.632Z"
+    },
+    {
+      "id": 6,
+      "userId": null,
+      "token": "fb374390-6b5d-4ab5-813b-258a96077f03",
+      "totalAmount": 0,
+      "createdAt": "2025-07-29T13:50:15.606Z",
+      "updatedAt": "2025-07-29T14:33:25.217Z"
+    },
+    {
+      "id": 7,
+      "userId": null,
+      "token": "0d78a4e9-bc19-401c-be4d-7816af91475a",
+      "totalAmount": 0,
+      "createdAt": "2025-07-30T10:47:50.308Z",
+      "updatedAt": "2025-07-30T10:51:45.791Z"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 1,
+      "cartId": 1,
+      "productItemId": 1,
+      "quantity": 2,
+      "createdAt": "2025-07-27T14:03:09.317Z",
+      "updatedAt": "2025-07-27T14:03:09.317Z"
+    },
+    {
+      "id": 39,
+      "cartId": 8,
+      "productItemId": 28,
+      "quantity": 1,
+      "createdAt": "2025-07-30T18:42:50.506Z",
+      "updatedAt": "2025-07-30T18:42:50.506Z"
+    },
+    {
+      "id": 40,
+      "cartId": 8,
+      "productItemId": 16,
+      "quantity": 1,
+      "createdAt": "2025-07-30T18:44:48.518Z",
+      "updatedAt": "2025-07-30T18:44:48.518Z"
+    },
+    {
+      "id": 41,
+      "cartId": 8,
+      "productItemId": 14,
+      "quantity": 1,
+      "createdAt": "2025-07-30T18:45:02.247Z",
+      "updatedAt": "2025-07-30T18:45:02.247Z"
+    },
+    {
+      "id": 42,
+      "cartId": 8,
+      "productItemId": 56,
+      "quantity": 1,
+      "createdAt": "2025-07-30T18:45:19.135Z",
+      "updatedAt": "2025-07-30T18:45:19.135Z"
+    },
+    {
+      "id": 43,
+      "cartId": 8,
+      "productItemId": 114,
+      "quantity": 1,
+      "createdAt": "2025-07-30T18:45:50.983Z",
+      "updatedAt": "2025-07-30T18:45:50.983Z"
+    },
+    {
+      "id": 44,
+      "cartId": 9,
+      "productItemId": 28,
+      "quantity": 1,
+      "createdAt": "2025-07-31T08:59:54.414Z",
+      "updatedAt": "2025-07-31T08:59:54.414Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "fullName": "Admin Test",
+      "email": "user2@test.com",
+      "password": "$2b$10$5riyxfpcp/juB5elgZLU4OwgSo8ztn5ehonaqZ5qu36z3fP21pdGm",
+      "role": "ADMIN",
+      "verified": "2025-07-27T14:02:58.651Z",
+      "provider": null,
+      "providerId": null,
+      "createdAt": "2025-07-27T14:02:58.653Z",
+      "updatedAt": "2025-07-27T14:02:58.653Z"
+    },
+    {
+      "id": 1,
+      "fullName": "User WWW",
+      "email": "userwww@test.com",
+      "password": "$2b$10$oYV9kljcWBFhQwcj4GvUYOEbn9yLT4Rs52QAy6/Ac/OccrbAGoZvq",
+      "role": "USER",
+      "verified": "2025-07-27T14:02:58.225Z",
+      "provider": null,
+      "providerId": null,
+      "createdAt": "2025-07-27T14:02:58.228Z",
+      "updatedAt": "2025-07-31T08:01:41.981Z"
+    },
+    {
+      "id": 5,
+      "fullName": "Hrachya Jivaryan",
+      "email": "user3@test.com",
+      "password": "$2b$10$oh7Ooo96BGh1qDpW6zxrzOw49WiHCW5QO2NFU9LgpTDSOk/PzCBAy",
+      "role": "USER",
+      "verified": "2025-07-30T18:21:09.990Z",
+      "provider": "github",
+      "providerId": "152434721",
+      "createdAt": "2025-07-30T18:21:09.992Z",
+      "updatedAt": "2025-07-31T08:21:48.552Z"
+    },
+    {
+      "id": 6,
+      "fullName": "Новый Пользователь",
+      "email": "hrachjgshow@gmail.com",
+      "password": "$2b$10$YOtSJ82eCzrK598iu0UGKOfias7YmKJRaejUwdLuWA/EEGsdw3Z3C",
+      "role": "USER",
+      "verified": "2025-07-31T08:38:35.406Z",
+      "provider": "google",
+      "providerId": "104653235894575813716",
+      "createdAt": "2025-07-31T08:30:34.116Z",
+      "updatedAt": "2025-07-31T09:22:16.871Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": null,
+      "token": "b9b3165f-0044-4e26-889d-1bf80b153f27",
+      "totalAmount": 2414,
+      "status": "PENDING",
+      "paymentId": "3019d2b7-000f-5000-b000-1f0455a4d416",
+      "items": "[{\"id\":3,\"cartId\":4,\"productItemId\":66,\"quantity\":1,\"createdAt\":\"2025-07-28T18:16:18.563Z\",\"updatedAt\":\"2025-07-28T18:16:18.563Z\",\"ingredients\":[{\"id\":1,\"name\":\"Сырный бортик\",\"price\":179,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":7,\"name\":\"Ветчина\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA61B9A8D61\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":10,\"name\":\"Маринованные огурчики\",\"price\":59,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/000D3A21DA51A81211E9EA89958D782B\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"}],\"productItem\":{\"id\":66,\"price\":899,\"size\":40,\"pizzaType\":2,\"productId\":56,\"product\":{\"id\":56,\"name\":\"Гавайская\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d617e9339cfb185921a343ad8fd.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-27T16:15:03.862Z\",\"updatedAt\":\"2025-07-27T16:09:05.942Z\"}}},{\"id\":4,\"cartId\":4,\"productItemId\":32,\"quantity\":1,\"createdAt\":\"2025-07-28T18:16:38.923Z\",\"updatedAt\":\"2025-07-28T18:16:38.923Z\",\"ingredients\":[],\"productItem\":{\"id\":32,\"price\":213,\"size\":null,\"pizzaType\":null,\"productId\":24,\"product\":{\"id\":24,\"name\":\"Добрый Лимон-Лайм\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f86321497340b0a98da0a428d7ce.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:03:18.164Z\",\"updatedAt\":\"2025-07-27T15:02:55.408Z\"}}},{\"id\":5,\"cartId\":4,\"productItemId\":56,\"quantity\":1,\"createdAt\":\"2025-07-28T18:16:57.010Z\",\"updatedAt\":\"2025-07-28T18:16:57.010Z\",\"ingredients\":[],\"productItem\":{\"id\":56,\"price\":374,\"size\":null,\"pizzaType\":null,\"productId\":48,\"product\":{\"id\":48,\"name\":\"Молочный коктейль Фисташка\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0198227c9627795b991b79142c0e3ba0.avif\",\"categoryId\":4,\"createdAt\":\"2025-07-27T15:51:56.828Z\",\"updatedAt\":\"2025-07-27T15:51:47.589Z\"}}},{\"id\":6,\"cartId\":4,\"productItemId\":31,\"quantity\":1,\"createdAt\":\"2025-07-28T18:17:11.915Z\",\"updatedAt\":\"2025-07-28T18:17:11.915Z\",\"ingredients\":[],\"productItem\":{\"id\":31,\"price\":213,\"size\":null,\"pizzaType\":null,\"productId\":23,\"product\":{\"id\":23,\"name\":\"Добрый Апельсин\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f8636ad574528ad8136969ef6446.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:01:53.622Z\",\"updatedAt\":\"2025-07-27T15:01:19.291Z\"}}},{\"id\":7,\"cartId\":4,\"productItemId\":38,\"quantity\":2,\"createdAt\":\"2025-07-28T18:17:29.937Z\",\"updatedAt\":\"2025-07-28T18:18:16.017Z\",\"ingredients\":[],\"productItem\":{\"id\":38,\"price\":199,\"size\":null,\"pizzaType\":null,\"productId\":30,\"product\":{\"id\":30,\"name\":\"Тирамису\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980cc3481c78e288c9a989de2dbdc6.avif\",\"categoryId\":7,\"createdAt\":\"2025-07-27T15:23:58.045Z\",\"updatedAt\":\"2025-07-27T15:23:38.825Z\"}}}]",
+      "fullName": "Вася  Пирогов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (960) 324-94-28",
+      "address": "г Москва, ул Дмитрия Ульянова, д 2",
+      "comment": "Срочно",
+      "createdAt": "2025-07-28T18:18:27.724Z",
+      "updatedAt": "2025-07-28T18:18:31.280Z"
+    },
+    {
+      "id": 2,
+      "userId": null,
+      "token": "b9b3165f-0044-4e26-889d-1bf80b153f27",
+      "totalAmount": 1224,
+      "status": "PENDING",
+      "paymentId": "3019d511-000f-5001-9000-10436b732522",
+      "items": "[{\"id\":8,\"cartId\":4,\"productItemId\":60,\"quantity\":1,\"createdAt\":\"2025-07-28T18:26:50.937Z\",\"updatedAt\":\"2025-07-28T18:26:50.937Z\",\"ingredients\":[],\"productItem\":{\"id\":60,\"price\":179,\"size\":null,\"pizzaType\":null,\"productId\":52,\"product\":{\"id\":52,\"name\":\"Сырники со сгущенным молоком\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980d419be874a5abd2ce54dcac236f.avif\",\"categoryId\":2,\"createdAt\":\"2025-07-27T15:58:43.233Z\",\"updatedAt\":\"2025-07-27T15:58:33.770Z\"}}},{\"id\":9,\"cartId\":4,\"productItemId\":67,\"quantity\":1,\"createdAt\":\"2025-07-28T18:27:09.310Z\",\"updatedAt\":\"2025-07-28T18:27:09.310Z\",\"ingredients\":[{\"id\":1,\"name\":\"Сырный бортик\",\"price\":179,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":8,\"name\":\"Пикантная пепперони\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA6258199C3\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"}],\"productItem\":{\"id\":67,\"price\":638,\"size\":30,\"pizzaType\":2,\"productId\":56,\"product\":{\"id\":56,\"name\":\"Гавайская\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d617e9339cfb185921a343ad8fd.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-27T16:15:03.862Z\",\"updatedAt\":\"2025-07-27T16:09:05.942Z\"}}},{\"id\":10,\"cartId\":4,\"productItemId\":63,\"quantity\":1,\"createdAt\":\"2025-07-28T18:27:50.182Z\",\"updatedAt\":\"2025-07-28T18:27:50.182Z\",\"ingredients\":[],\"productItem\":{\"id\":63,\"price\":149,\"size\":null,\"pizzaType\":null,\"productId\":55,\"product\":{\"id\":55,\"name\":\"Лимонад Арбузный лайм\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f865f0a872f0874fb8caa5cb293a.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T16:06:34.555Z\",\"updatedAt\":\"2025-07-27T16:06:22.381Z\"}}}]",
+      "fullName": "Вася  Пирогов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (960) 324-94-28",
+      "address": "г Москва, пр-кт Мира, д 1",
+      "comment": "",
+      "createdAt": "2025-07-28T18:28:30.835Z",
+      "updatedAt": "2025-07-28T18:28:33.042Z"
+    },
+    {
+      "id": 3,
+      "userId": null,
+      "token": "b9b3165f-0044-4e26-889d-1bf80b153f27",
+      "totalAmount": 818,
+      "status": "PENDING",
+      "paymentId": "3019dd48-000f-5001-8000-1b3234bbf3ad",
+      "items": "[{\"id\":11,\"cartId\":4,\"productItemId\":53,\"quantity\":1,\"createdAt\":\"2025-07-28T19:01:19.891Z\",\"updatedAt\":\"2025-07-28T19:01:19.891Z\",\"ingredients\":[],\"productItem\":{\"id\":53,\"price\":379,\"size\":null,\"pizzaType\":null,\"productId\":46,\"product\":{\"id\":46,\"name\":\"Пицца и напиток\",\"imageUrl\":\"https://media.dodostatic.net/image/r:1875x1875/0197c001ff39748ea72e0da6db8b13f0.avif\",\"categoryId\":9,\"createdAt\":\"2025-07-27T15:45:53.174Z\",\"updatedAt\":\"2025-07-27T15:45:36.206Z\"}}},{\"id\":12,\"cartId\":4,\"productItemId\":51,\"quantity\":1,\"createdAt\":\"2025-07-28T19:01:41.101Z\",\"updatedAt\":\"2025-07-28T19:01:41.101Z\",\"ingredients\":[],\"productItem\":{\"id\":51,\"price\":439,\"size\":null,\"pizzaType\":null,\"productId\":43,\"product\":{\"id\":43,\"name\":\"2 фирменные закуски\",\"imageUrl\":\"https://media.dodostatic.net/image/r:1875x1875/01981db0f4ec73c4986c1e55d860f53b.avif\",\"categoryId\":9,\"createdAt\":\"2025-07-27T15:41:34.682Z\",\"updatedAt\":\"2025-07-27T15:41:24.187Z\"}}}]",
+      "fullName": "Вася  Виноградов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (960) 324-94-28",
+      "address": "Краснодарский край, г Новороссийск, село Гайдук, ул Спортивная, д 3",
+      "comment": "",
+      "createdAt": "2025-07-28T19:03:32.495Z",
+      "updatedAt": "2025-07-28T19:03:36.960Z"
+    },
+    {
+      "id": 4,
+      "userId": null,
+      "token": "b9b3165f-0044-4e26-889d-1bf80b153f27",
+      "totalAmount": 59,
+      "status": "PENDING",
+      "paymentId": "3019df0d-000f-5000-b000-1c19484f5aaa",
+      "items": "[{\"id\":13,\"cartId\":4,\"productItemId\":47,\"quantity\":1,\"createdAt\":\"2025-07-28T19:10:30.664Z\",\"updatedAt\":\"2025-07-28T19:10:30.664Z\",\"ingredients\":[],\"productItem\":{\"id\":47,\"price\":59,\"size\":null,\"pizzaType\":null,\"productId\":40,\"product\":{\"id\":40,\"name\":\"Тысяча островов\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980cbdbaef76e1b1aec6df48c66b64.avif\",\"categoryId\":8,\"createdAt\":\"2025-07-27T15:34:26.561Z\",\"updatedAt\":\"2025-07-27T15:34:09.724Z\"}}}]",
+      "fullName": "Вася  Пирогов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (960) 324-94-28",
+      "address": "г Москва",
+      "comment": "",
+      "createdAt": "2025-07-28T19:11:07.691Z",
+      "updatedAt": "2025-07-28T19:11:09.180Z"
+    },
+    {
+      "id": 5,
+      "userId": null,
+      "token": "f2b63b0b-3f4e-4ff0-8ff1-4711067205e6",
+      "totalAmount": 576,
+      "status": "SUCCEEDED",
+      "paymentId": "301aaea1-000f-5001-8000-17fbb2cb5c09",
+      "items": "[{\"id\":14,\"cartId\":5,\"productItemId\":12,\"quantity\":1,\"createdAt\":\"2025-07-29T09:47:44.904Z\",\"updatedAt\":\"2025-07-29T09:47:44.904Z\",\"ingredients\":[{\"id\":17,\"name\":\"Митболы\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/b2f3a5d5afe44516a93cfc0d2ee60088.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"}],\"productItem\":{\"id\":12,\"price\":338,\"size\":40,\"pizzaType\":2,\"productId\":20,\"product\":{\"id\":20,\"name\":\"Чоризо Фреш\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d61706d472f9a5d71eb94149304.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-27T14:03:06.432Z\",\"updatedAt\":\"2025-07-27T15:18:36.294Z\"}}},{\"id\":15,\"cartId\":5,\"productItemId\":62,\"quantity\":1,\"createdAt\":\"2025-07-29T09:48:01.690Z\",\"updatedAt\":\"2025-07-29T09:48:01.690Z\",\"ingredients\":[],\"productItem\":{\"id\":62,\"price\":159,\"size\":null,\"pizzaType\":null,\"productId\":54,\"product\":{\"id\":54,\"name\":\"Напиток сокосодержащий Pulpy Апельсин\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f868428771579fc8f8bb78c76308.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T16:05:57.716Z\",\"updatedAt\":\"2025-07-27T16:05:46.622Z\"}}}]",
+      "fullName": "Вася  Пирогов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (960) 324-94-28",
+      "address": "Кабардино-Балкарская Респ, г Прохладный",
+      "comment": "",
+      "createdAt": "2025-07-29T09:56:47.320Z",
+      "updatedAt": "2025-07-29T10:14:23.667Z"
+    },
+    {
+      "id": 6,
+      "userId": null,
+      "token": "f2b63b0b-3f4e-4ff0-8ff1-4711067205e6",
+      "totalAmount": 4796,
+      "status": "SUCCEEDED",
+      "paymentId": "301ababe-000f-5000-8000-1f9a8da41057",
+      "items": "[{\"id\":16,\"cartId\":5,\"productItemId\":28,\"quantity\":1,\"createdAt\":\"2025-07-29T10:36:37.652Z\",\"updatedAt\":\"2025-07-29T10:36:37.652Z\",\"ingredients\":[],\"productItem\":{\"id\":28,\"price\":220,\"size\":null,\"pizzaType\":null,\"productId\":22,\"product\":{\"id\":22,\"name\":\"Кофе Ореховый латте\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d61b12220ab911ff4fa42ef585d.avif\",\"categoryId\":5,\"createdAt\":\"2025-07-27T14:28:19.997Z\",\"updatedAt\":\"2025-07-27T14:52:32.564Z\"}}},{\"id\":17,\"cartId\":5,\"productItemId\":63,\"quantity\":1,\"createdAt\":\"2025-07-29T10:37:33.947Z\",\"updatedAt\":\"2025-07-29T10:37:33.947Z\",\"ingredients\":[],\"productItem\":{\"id\":63,\"price\":149,\"size\":null,\"pizzaType\":null,\"productId\":55,\"product\":{\"id\":55,\"name\":\"Лимонад Арбузный лайм\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f865f0a872f0874fb8caa5cb293a.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T16:06:34.555Z\",\"updatedAt\":\"2025-07-27T16:06:22.381Z\"}}},{\"id\":18,\"cartId\":5,\"productItemId\":54,\"quantity\":2,\"createdAt\":\"2025-07-29T10:37:47.793Z\",\"updatedAt\":\"2025-07-29T10:38:04.650Z\",\"ingredients\":[],\"productItem\":{\"id\":54,\"price\":327,\"size\":null,\"pizzaType\":null,\"productId\":10,\"product\":{\"id\":10,\"name\":\"Клубничный молочный коктейль\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0198227d306776d897d4781cc1a225bd.avif\",\"categoryId\":4,\"createdAt\":\"2025-07-27T14:03:02.088Z\",\"updatedAt\":\"2025-07-27T15:50:36.029Z\"}}},{\"id\":19,\"cartId\":5,\"productItemId\":51,\"quantity\":1,\"createdAt\":\"2025-07-29T10:42:28.491Z\",\"updatedAt\":\"2025-07-29T10:42:28.491Z\",\"ingredients\":[],\"productItem\":{\"id\":51,\"price\":439,\"size\":null,\"pizzaType\":null,\"productId\":43,\"product\":{\"id\":43,\"name\":\"2 фирменные закуски\",\"imageUrl\":\"https://media.dodostatic.net/image/r:1875x1875/01981db0f4ec73c4986c1e55d860f53b.avif\",\"categoryId\":9,\"createdAt\":\"2025-07-27T15:41:34.682Z\",\"updatedAt\":\"2025-07-27T15:41:24.187Z\"}}},{\"id\":20,\"cartId\":5,\"productItemId\":72,\"quantity\":1,\"createdAt\":\"2025-07-29T10:45:38.485Z\",\"updatedAt\":\"2025-07-29T10:45:38.485Z\",\"ingredients\":[{\"id\":2,\"name\":\"Сливочная моцарелла\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":3,\"name\":\"Сыры чеддер и пармезан\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":4,\"name\":\"Острый перец халапеньо\",\"price\":59,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/11ee95b6bfdf98fb88a113db92d7b3df.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"}],\"productItem\":{\"id\":72,\"price\":1009,\"size\":40,\"pizzaType\":2,\"productId\":57,\"product\":{\"id\":57,\"name\":\"Мясной микс с говядиной и колбасками\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0194d4f6904975a5a6427e297591980d.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-29T10:29:31.751Z\",\"updatedAt\":\"2025-07-29T10:28:35.543Z\"}}},{\"id\":21,\"cartId\":5,\"productItemId\":60,\"quantity\":1,\"createdAt\":\"2025-07-29T10:45:48.303Z\",\"updatedAt\":\"2025-07-29T10:45:48.303Z\",\"ingredients\":[],\"productItem\":{\"id\":60,\"price\":179,\"size\":null,\"pizzaType\":null,\"productId\":52,\"product\":{\"id\":52,\"name\":\"Сырники со сгущенным молоком\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980d419be874a5abd2ce54dcac236f.avif\",\"categoryId\":2,\"createdAt\":\"2025-07-27T15:58:43.233Z\",\"updatedAt\":\"2025-07-27T15:58:33.770Z\"}}},{\"id\":22,\"cartId\":5,\"productItemId\":34,\"quantity\":2,\"createdAt\":\"2025-07-29T10:46:01.032Z\",\"updatedAt\":\"2025-07-29T10:46:09.880Z\",\"ingredients\":[],\"productItem\":{\"id\":34,\"price\":265,\"size\":null,\"pizzaType\":null,\"productId\":26,\"product\":{\"id\":26,\"name\":\"Нектар Добрый мультифрукт\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f86779ad7937990dab2a0fb51377.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:05:50.438Z\",\"updatedAt\":\"2025-07-27T15:05:39.418Z\"}}},{\"id\":23,\"cartId\":5,\"productItemId\":31,\"quantity\":1,\"createdAt\":\"2025-07-29T10:46:20.885Z\",\"updatedAt\":\"2025-07-29T10:46:20.885Z\",\"ingredients\":[],\"productItem\":{\"id\":31,\"price\":213,\"size\":null,\"pizzaType\":null,\"productId\":23,\"product\":{\"id\":23,\"name\":\"Добрый Апельсин\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f8636ad574528ad8136969ef6446.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:01:53.622Z\",\"updatedAt\":\"2025-07-27T15:01:19.291Z\"}}},{\"id\":24,\"cartId\":5,\"productItemId\":38,\"quantity\":1,\"createdAt\":\"2025-07-29T10:46:29.438Z\",\"updatedAt\":\"2025-07-29T10:46:29.438Z\",\"ingredients\":[],\"productItem\":{\"id\":38,\"price\":199,\"size\":null,\"pizzaType\":null,\"productId\":30,\"product\":{\"id\":30,\"name\":\"Тирамису\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980cc3481c78e288c9a989de2dbdc6.avif\",\"categoryId\":7,\"createdAt\":\"2025-07-27T15:23:58.045Z\",\"updatedAt\":\"2025-07-27T15:23:38.825Z\"}}},{\"id\":25,\"cartId\":5,\"productItemId\":47,\"quantity\":1,\"createdAt\":\"2025-07-29T10:46:37.717Z\",\"updatedAt\":\"2025-07-29T10:46:37.717Z\",\"ingredients\":[],\"productItem\":{\"id\":47,\"price\":59,\"size\":null,\"pizzaType\":null,\"productId\":40,\"product\":{\"id\":40,\"name\":\"Тысяча островов\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980cbdbaef76e1b1aec6df48c66b64.avif\",\"categoryId\":8,\"createdAt\":\"2025-07-27T15:34:26.561Z\",\"updatedAt\":\"2025-07-27T15:34:09.724Z\"}}},{\"id\":26,\"cartId\":5,\"productItemId\":48,\"quantity\":1,\"createdAt\":\"2025-07-29T10:46:46.414Z\",\"updatedAt\":\"2025-07-29T10:46:46.414Z\",\"ingredients\":[],\"productItem\":{\"id\":48,\"price\":459,\"size\":null,\"pizzaType\":null,\"productId\":41,\"product\":{\"id\":41,\"name\":\"Салат и закуска\",\"imageUrl\":\"https://media.dodostatic.net/image/r:1875x1875/01978c553929716fb342d41f33c3942a.avif\",\"categoryId\":9,\"createdAt\":\"2025-07-27T15:36:52.944Z\",\"updatedAt\":\"2025-07-27T15:37:56.820Z\"}}},{\"id\":27,\"cartId\":5,\"productItemId\":33,\"quantity\":1,\"createdAt\":\"2025-07-29T10:46:56.104Z\",\"updatedAt\":\"2025-07-29T10:46:56.104Z\",\"ingredients\":[],\"productItem\":{\"id\":33,\"price\":256,\"size\":null,\"pizzaType\":null,\"productId\":25,\"product\":{\"id\":25,\"name\":\"Нектар Добрый апельсин\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980d4f28e575df80d1bfe852522d32.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:05:08.256Z\",\"updatedAt\":\"2025-07-27T15:04:43.386Z\"}}},{\"id\":28,\"cartId\":5,\"productItemId\":32,\"quantity\":1,\"createdAt\":\"2025-07-29T10:47:04.614Z\",\"updatedAt\":\"2025-07-29T10:47:04.614Z\",\"ingredients\":[],\"productItem\":{\"id\":32,\"price\":213,\"size\":null,\"pizzaType\":null,\"productId\":24,\"product\":{\"id\":24,\"name\":\"Добрый Лимон-Лайм\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f86321497340b0a98da0a428d7ce.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:03:18.164Z\",\"updatedAt\":\"2025-07-27T15:02:55.408Z\"}}}]",
+      "fullName": "Павел Виноградов",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (976) 453-52-52",
+      "address": "г Москва, Варшавское шоссе, д 125 стр 18Д",
+      "comment": "",
+      "createdAt": "2025-07-29T10:48:29.187Z",
+      "updatedAt": "2025-07-29T10:48:59.155Z"
+    },
+    {
+      "id": 7,
+      "userId": null,
+      "token": "fb374390-6b5d-4ab5-813b-258a96077f03",
+      "totalAmount": 2074,
+      "status": "PENDING",
+      "paymentId": "301aef76-000f-5001-9000-16956e7f85ab",
+      "items": "[{\"id\":30,\"cartId\":6,\"productItemId\":77,\"quantity\":1,\"createdAt\":\"2025-07-29T14:28:13.399Z\",\"updatedAt\":\"2025-07-29T14:28:13.399Z\",\"ingredients\":[],\"productItem\":{\"id\":77,\"price\":749,\"size\":30,\"pizzaType\":1,\"productId\":59,\"product\":{\"id\":59,\"name\":\"Четыре сезона\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d611adf5aad898b8b651186e023.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-29T11:08:25.609Z\",\"updatedAt\":\"2025-07-29T10:57:06.447Z\"}}},{\"id\":31,\"cartId\":6,\"productItemId\":59,\"quantity\":1,\"createdAt\":\"2025-07-29T14:29:45.360Z\",\"updatedAt\":\"2025-07-29T14:29:45.360Z\",\"ingredients\":[],\"productItem\":{\"id\":59,\"price\":179,\"size\":null,\"pizzaType\":null,\"productId\":51,\"product\":{\"id\":51,\"name\":\"Сырники с малиновым вареньем\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/01980d410d667733968cd0731f058f97.avif\",\"categoryId\":2,\"createdAt\":\"2025-07-27T15:58:10.600Z\",\"updatedAt\":\"2025-07-27T15:57:56.942Z\"}}},{\"id\":32,\"cartId\":6,\"productItemId\":35,\"quantity\":1,\"createdAt\":\"2025-07-29T14:30:07.992Z\",\"updatedAt\":\"2025-07-29T14:30:07.992Z\",\"ingredients\":[],\"productItem\":{\"id\":35,\"price\":265,\"size\":null,\"pizzaType\":null,\"productId\":27,\"product\":{\"id\":27,\"name\":\"Сок Добрый Яблоко\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f866677d77d580aa9f99dd242835.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T15:06:36.056Z\",\"updatedAt\":\"2025-07-27T15:06:24.976Z\"}}},{\"id\":33,\"cartId\":6,\"productItemId\":54,\"quantity\":1,\"createdAt\":\"2025-07-29T14:30:50.282Z\",\"updatedAt\":\"2025-07-29T14:30:50.282Z\",\"ingredients\":[],\"productItem\":{\"id\":54,\"price\":327,\"size\":null,\"pizzaType\":null,\"productId\":10,\"product\":{\"id\":10,\"name\":\"Клубничный молочный коктейль\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0198227d306776d897d4781cc1a225bd.avif\",\"categoryId\":4,\"createdAt\":\"2025-07-27T14:03:02.088Z\",\"updatedAt\":\"2025-07-27T15:50:36.029Z\"}}},{\"id\":34,\"cartId\":6,\"productItemId\":18,\"quantity\":1,\"createdAt\":\"2025-07-29T14:31:16.288Z\",\"updatedAt\":\"2025-07-29T14:31:16.288Z\",\"ingredients\":[],\"productItem\":{\"id\":18,\"price\":253,\"size\":null,\"pizzaType\":null,\"productId\":6,\"product\":{\"id\":6,\"name\":\"Картофель из печи с соусом 🌱\",\"imageUrl\":\"https://media.dodostatic.net/image/r:292x292/11EED646A9CD324C962C6BEA78124F19.webp\",\"categoryId\":3,\"createdAt\":\"2025-07-27T14:03:01.364Z\",\"updatedAt\":\"2025-07-27T14:03:01.364Z\"}}},{\"id\":35,\"cartId\":6,\"productItemId\":17,\"quantity\":1,\"createdAt\":\"2025-07-29T14:31:32.121Z\",\"updatedAt\":\"2025-07-29T14:31:32.121Z\",\"ingredients\":[],\"productItem\":{\"id\":17,\"price\":301,\"size\":null,\"pizzaType\":null,\"productId\":5,\"product\":{\"id\":5,\"name\":\"Куриные наггетсы\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0198131dce8b706bb3ed5a169df1bc84.avif\",\"categoryId\":3,\"createdAt\":\"2025-07-27T14:03:01.183Z\",\"updatedAt\":\"2025-07-27T15:56:05.648Z\"}}}]",
+      "fullName": "Грачя Дживарян",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (436) 615-32-46",
+      "address": "г Калуга, ул Пестеля, д 62, кв 38",
+      "comment": "",
+      "createdAt": "2025-07-29T14:33:24.496Z",
+      "updatedAt": "2025-07-29T14:33:27.776Z"
+    },
+    {
+      "id": 8,
+      "userId": null,
+      "token": "0d78a4e9-bc19-401c-be4d-7816af91475a",
+      "totalAmount": 1903,
+      "status": "PENDING",
+      "paymentId": "301c0d04-000f-5001-8000-1f93d12191e9",
+      "items": "[{\"id\":36,\"cartId\":7,\"productItemId\":116,\"quantity\":1,\"createdAt\":\"2025-07-30T10:47:51.707Z\",\"updatedAt\":\"2025-07-30T10:47:51.707Z\",\"ingredients\":[],\"productItem\":{\"id\":116,\"price\":439,\"size\":20,\"pizzaType\":1,\"productId\":67,\"product\":{\"id\":67,\"name\":\"Аррива\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/019591a0591d7642b97bf6ed6da45252.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-29T11:08:25.609Z\",\"updatedAt\":\"2025-07-29T11:08:13.288Z\"}}},{\"id\":38,\"cartId\":7,\"productItemId\":85,\"quantity\":1,\"createdAt\":\"2025-07-30T10:48:55.298Z\",\"updatedAt\":\"2025-07-30T10:48:55.298Z\",\"ingredients\":[{\"id\":1,\"name\":\"Сырный бортик\",\"price\":179,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":4,\"name\":\"Острый перец халапеньо\",\"price\":59,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/11ee95b6bfdf98fb88a113db92d7b3df.png\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"},{\"id\":7,\"name\":\"Ветчина\",\"price\":79,\"imageUrl\":\"https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA61B9A8D61\",\"createdAt\":\"2025-07-27T14:02:59.554Z\",\"updatedAt\":\"2025-07-27T14:02:59.554Z\"}],\"productItem\":{\"id\":85,\"price\":829,\"size\":40,\"pizzaType\":2,\"productId\":60,\"product\":{\"id\":60,\"name\":\"Диабло\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/11ee7d6149eb101d8727573088fa2eff.avif\",\"categoryId\":1,\"createdAt\":\"2025-07-29T11:08:25.609Z\",\"updatedAt\":\"2025-07-29T10:57:29.502Z\"}}},{\"id\":37,\"cartId\":7,\"productItemId\":61,\"quantity\":2,\"createdAt\":\"2025-07-30T10:48:15.958Z\",\"updatedAt\":\"2025-07-30T10:51:07.395Z\",\"ingredients\":[],\"productItem\":{\"id\":61,\"price\":159,\"size\":null,\"pizzaType\":null,\"productId\":53,\"product\":{\"id\":53,\"name\":\"Rich Tea Зеленый\",\"imageUrl\":\"https://media.dodostatic.net/image/r:760x760/0197f868ed507997948b292b5ad77228.avif\",\"categoryId\":6,\"createdAt\":\"2025-07-27T16:04:59.023Z\",\"updatedAt\":\"2025-07-27T16:04:33.772Z\"}}}]",
+      "fullName": "Грачя Дживарян",
+      "email": "hrachjgshow@gmail.com",
+      "phone": "+7 (976) 453-52-52",
+      "address": "г Москва, Воробьёвское шоссе, соор 2 стр 2",
+      "comment": "",
+      "createdAt": "2025-07-30T10:51:44.967Z",
+      "updatedAt": "2025-07-30T10:51:48.807Z"
+    }
+  ],
+  "verificationCodes": [],
+  "stories": [
+    {
+      "id": 1,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/xep/xzh/zmc/cr4gcw0aselwvf628pbmj3j/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=3101815496",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    },
+    {
+      "id": 2,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/km2/9gf/jrn/sb7ls1yj9fe5bwvuwgym73e/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=3074015640",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    },
+    {
+      "id": 3,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/quw/acz/zf5/zu37vankpngyccqvgzbohj1/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=1336215020",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    },
+    {
+      "id": 4,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/7oc/5nf/ipn/oznceu2ywv82tdlnpwriyrq/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=38903958",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    },
+    {
+      "id": 5,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/q0t/flg/0ph/xt67uw7kgqe9bag7spwkkyw/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=2941222737",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    },
+    {
+      "id": 6,
+      "previewImageUrl": "https://cdn.inappstory.ru/story/lza/rsp/2gc/xrar8zdspl4saq4uajmso38/custom_cover/logo-350x440.webp?k=IgAAAAAAAAAE&v=4207486284",
+      "createdAt": "2025-07-31T10:32:33.696Z"
+    }
+  ],
+  "storyItems": [
+    {
+      "id": 1,
+      "storyId": 1,
+      "sourceUrl": "https://cdn.inappstory.ru/file/dd/yj/sx/oqx9feuljibke3mknab7ilb35t.webp?k=IgAAAAAAAAAE",
+      "createdAt": "2025-07-31T10:32:34.413Z"
+    },
+    {
+      "id": 2,
+      "storyId": 1,
+      "sourceUrl": "https://cdn.inappstory.ru/file/jv/sb/fh/io7c5zarojdm7eus0trn7czdet.webp?k=IgAAAAAAAAAE",
+      "createdAt": "2025-07-31T10:32:34.413Z"
+    },
+    {
+      "id": 3,
+      "storyId": 1,
+      "sourceUrl": "https://cdn.inappstory.ru/file/ts/p9/vq/zktyxdxnjqbzufonxd8ffk44cb.webp?k=IgAAAAAAAAAE",
+      "createdAt": "2025-07-31T10:32:34.413Z"
+    },
+    {
+      "id": 4,
+      "storyId": 1,
+      "sourceUrl": "https://cdn.inappstory.ru/file/ur/uq/le/9ufzwtpdjeekidqq04alfnxvu2.webp?k=IgAAAAAAAAAE",
+      "createdAt": "2025-07-31T10:32:34.413Z"
+    },
+    {
+      "id": 5,
+      "storyId": 1,
+      "sourceUrl": "https://cdn.inappstory.ru/file/sy/vl/c7/uyqzmdojadcbw7o0a35ojxlcul.webp?k=IgAAAAAAAAAE",
+      "createdAt": "2025-07-31T10:32:34.413Z"
+    }
+  ]
+}
