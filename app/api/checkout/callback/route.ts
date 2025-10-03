@@ -38,13 +38,21 @@ export async function POST(req: NextRequest) {
       await sendEmail(
         order.email,
         "Next Pizza / Ваш заказ успешно оформлен 🎉",
-        await OrderSuccessTemplate({ orderId: order.id, items })
+        await OrderSuccessTemplate({
+          orderId: order.id,
+          items,
+          totalAmount: order.totalAmount, // Добавили totalAmount
+        })
       );
     } else {
       await sendEmail(
         order.email,
-        "Next Pizza / Order Payment Error ❌",
-        await OrderFailureTemplate({ orderId: order.id, items })
+        "Next Pizza / Ошибка оплаты ❌",
+        await OrderFailureTemplate({
+          orderId: order.id,
+          items,
+          totalAmount: order.totalAmount, // Добавили totalAmount
+        })
       );
     }
 

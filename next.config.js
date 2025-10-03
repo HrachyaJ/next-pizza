@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.dodostatic.net",
+        port: "",
+        pathname: "/**", // This allows any path under the hostname (e.g., /image/...); adjust if you need stricter matching like '/image/**'
+      },
+    ],
+  },
   reactStrictMode: false,
   eslint: {
     // Warning: This allows production builds to successfully complete even if
@@ -10,7 +20,7 @@ const nextConfig = {
   webpack: (config, { dev }) => {
     if (dev) {
       config.infrastructureLogging = {
-        level: 'error',
+        level: "error",
       };
     }
     return config;

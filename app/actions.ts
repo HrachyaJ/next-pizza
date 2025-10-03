@@ -11,6 +11,10 @@ import { PayOrderTemplate } from "@/components/shared/email/pay-order";
 import { getUserSession } from "@/lib/get-user-session";
 import { VerificationUserTemplate } from "@/components/shared/email/verification-user";
 
+// Константы для расчета
+const DELIVERY_PRICE = 250; // Стоимость доставки в рублях
+const TAX_RATE = 0.15; // Налог 15%
+
 export async function createOrder(data: CheckoutFormValues) {
   try {
     const cookieStore = await cookies();
@@ -40,15 +44,21 @@ export async function createOrder(data: CheckoutFormValues) {
       },
     });
 
-    /* Если корзина не найдена возращаем ошибку */
+    /* Если корзина не найдена возвращаем ошибку */
     if (!userCart) {
       throw new Error("Cart not found");
     }
 
-    /* Если корзина пустая возращаем ошибку */
+    /* Если корзина пустая возвращаем ошибку */
     if (userCart?.totalAmount === 0) {
       throw new Error("Cart is empty");
     }
+
+    // Рассчитываем итоговую сумму с налогами и доставкой
+    const cartTotal = userCart.totalAmount;
+    const taxAmount = Math.round(cartTotal * TAX_RATE);
+    const deliveryAmount = cartTotal > 0 ? DELIVERY_PRICE : 0;
+    const finalAmount = cartTotal + taxAmount + deliveryAmount;
 
     /* Создаем заказ */
     const order = await prisma.order.create({
@@ -59,7 +69,7 @@ export async function createOrder(data: CheckoutFormValues) {
         phone: data.phone,
         address: data.address,
         comment: data.comment,
-        totalAmount: userCart.totalAmount,
+        totalAmount: finalAmount, // Сохраняем итоговую сумму с налогами и доставкой
         status: OrderStatus.PENDING,
         items: JSON.stringify(userCart.items),
       },
@@ -82,7 +92,7 @@ export async function createOrder(data: CheckoutFormValues) {
     });
 
     const paymentData = await createPayment({
-      amount: order.totalAmount,
+      amount: order.totalAmount, // Отправляем полную сумму в YooKassa
       orderId: order.id,
       description: "Оплата заказа #" + order.id,
     });
@@ -123,7 +133,7 @@ export async function updateUserInfo(body: Prisma.UserUpdateInput) {
     const currentUser = await getUserSession();
 
     if (!currentUser) {
-      throw new Error("Пользователь не найден");
+      throw new Error("Пользователь не найден");
     }
 
     const findUser = await prisma.user.findFirst({
