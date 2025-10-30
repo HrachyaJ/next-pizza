@@ -12,8 +12,8 @@ import { getUserSession } from "@/lib/get-user-session";
 import { VerificationUserTemplate } from "@/components/shared/email/verification-user";
 
 // Константы для расчета
-const DELIVERY_PRICE = 250; // Стоимость доставки в рублях
-const TAX_RATE = 0.15; // Налог 15%
+const DELIVERY_PRICE = 250;
+const TAX_RATE = 0.15;
 
 export async function createOrder(data: CheckoutFormValues) {
   try {
@@ -24,7 +24,6 @@ export async function createOrder(data: CheckoutFormValues) {
       throw new Error("Cart token not found");
     }
 
-    /* Находим корзину по токену */
     const userCart = await prisma.cart.findFirst({
       include: {
         user: true,
@@ -44,23 +43,19 @@ export async function createOrder(data: CheckoutFormValues) {
       },
     });
 
-    /* Если корзина не найдена возвращаем ошибку */
     if (!userCart) {
       throw new Error("Cart not found");
     }
 
-    /* Если корзина пустая возвращаем ошибку */
     if (userCart?.totalAmount === 0) {
       throw new Error("Cart is empty");
     }
 
-    // Рассчитываем итоговую сумму с налогами и доставкой
     const cartTotal = userCart.totalAmount;
     const taxAmount = Math.round(cartTotal * TAX_RATE);
     const deliveryAmount = cartTotal > 0 ? DELIVERY_PRICE : 0;
     const finalAmount = cartTotal + taxAmount + deliveryAmount;
 
-    /* Создаем заказ */
     const order = await prisma.order.create({
       data: {
         token: cartToken,
@@ -69,13 +64,12 @@ export async function createOrder(data: CheckoutFormValues) {
         phone: data.phone,
         address: data.address,
         comment: data.comment,
-        totalAmount: finalAmount, // Сохраняем итоговую сумму с налогами и доставкой
+        totalAmount: finalAmount,
         status: OrderStatus.PENDING,
         items: JSON.stringify(userCart.items),
       },
     });
 
-    /* Очищаем корзину */
     await prisma.cart.update({
       where: {
         id: userCart.id,
@@ -92,7 +86,7 @@ export async function createOrder(data: CheckoutFormValues) {
     });
 
     const paymentData = await createPayment({
-      amount: order.totalAmount, // Отправляем полную сумму в YooKassa
+      amount: order.totalAmount,
       orderId: order.id,
       description: "Оплата заказа #" + order.id,
     });
@@ -112,19 +106,30 @@ export async function createOrder(data: CheckoutFormValues) {
 
     const paymentUrl = paymentData.confirmation.confirmation_url;
 
-    await sendEmail(
-      data.email,
-      "Next Pizza / Оплатите заказ #" + order.id,
-      await PayOrderTemplate({
-        orderId: order.id,
-        totalAmount: order.totalAmount,
-        paymentUrl,
-      })
-    );
+    // CRITICAL: Don't let email failure crash the checkout!
+    try {
+      await sendEmail(
+        data.email,
+        "Next Pizza / Оплатите заказ #" + order.id,
+        await PayOrderTemplate({
+          orderId: order.id,
+          totalAmount: order.totalAmount,
+          paymentUrl,
+        })
+      );
+      console.log(`[CreateOrder] ✅ Email sent successfully to ${data.email}`);
+    } catch (emailError) {
+      // Log error but don't crash - order is already created!
+      console.error(
+        "[CreateOrder] ⚠️ Email failed but order created:",
+        emailError
+      );
+    }
 
     return paymentUrl;
   } catch (err) {
-    console.log("[CreateOrder] Server error", err);
+    console.error("[CreateOrder] ❌ Server error", err);
+    throw err; // Only throw for actual order creation errors
   }
 }
 
@@ -172,7 +177,6 @@ export async function registerUser(body: Prisma.UserCreateInput) {
       if (!user.verified) {
         throw new Error("Почта не подтверждена");
       }
-
       throw new Error("Пользователь уже существует");
     }
 
@@ -193,15 +197,31 @@ export async function registerUser(body: Prisma.UserCreateInput) {
       },
     });
 
-    await sendEmail(
-      createdUser.email,
-      "Next Pizza / 📝 Подтверждение регистрации",
-      await VerificationUserTemplate({
-        code,
-      })
-    );
+    // CRITICAL: Don't let email failure prevent registration!
+    try {
+      await sendEmail(
+        createdUser.email,
+        "Next Pizza / 📝 Подтверждение регистрации",
+        await VerificationUserTemplate({
+          code,
+        })
+      );
+      console.log(
+        `[RegisterUser] ✅ Verification email sent to ${createdUser.email}`
+      );
+    } catch (emailError) {
+      // User is already created, just log the email error
+      console.error(
+        "[RegisterUser] ⚠️ Email failed but user created:",
+        emailError
+      );
+      console.log(`[RegisterUser] Verification code for debugging: ${code}`);
+      // Registration succeeds even if email fails
+    }
+
+    return { success: true, userId: createdUser.id };
   } catch (err) {
-    console.log("Error [CREATE_USER]", err);
+    console.error("Error [CREATE_USER]", err);
     throw err;
   }
 }

@@ -74,7 +74,7 @@ function DropdownMenuItem({
       data-inset={inset}
       data-variant={variant}
       className={cn(
-        "py-1 px-1 rounded-[10px] hover:bg-[#FFFAF6] hover:text-[#FF6B00] transition-colors",
+        "py-1 px-1 rounded-[10px] hover:bg-[#FFFAF6] hover:text-[#FF6B00] transition-colors focus:outline-none",
         className
       )}
       {...props}
