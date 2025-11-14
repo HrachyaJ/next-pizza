@@ -1,4 +1,4 @@
-import { prisma } from '@/prisma/prisma-client';
+import { prisma } from "@/prisma/prisma-client";
 
 export interface GetSearchParams {
   query?: string;
@@ -16,10 +16,10 @@ const DEFAULT_MAX_PRICE = 1000;
 export const findPizzas = async (params: GetSearchParams) => {
   // Await the params if they're a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
-  
-  const sizes = resolvedParams.sizes?.split(',').map(Number);
-  const pizzaTypes = resolvedParams.pizzaTypes?.split(',').map(Number);
-  const ingredientsIdArr = resolvedParams.ingredients?.split(',').map(Number);
+
+  const sizes = resolvedParams.sizes?.split(",").map(Number);
+  const pizzaTypes = resolvedParams.pizzaTypes?.split(",").map(Number);
+  const ingredientsIdArr = resolvedParams.ingredients?.split(",").map(Number);
 
   const minPrice = Number(resolvedParams.priceFrom) || DEFAULT_MIN_PRICE;
   const maxPrice = Number(resolvedParams.priceTo) || DEFAULT_MAX_PRICE;
@@ -28,7 +28,7 @@ export const findPizzas = async (params: GetSearchParams) => {
     include: {
       products: {
         orderBy: {
-          id: 'desc',
+          id: "desc",
         },
         where: {
           ingredients: ingredientsIdArr
@@ -65,7 +65,7 @@ export const findPizzas = async (params: GetSearchParams) => {
               },
             },
             orderBy: {
-              price: 'asc',
+              price: "asc",
             },
           },
         },

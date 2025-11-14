@@ -1,10 +1,10 @@
-import { PizzaSize, PizzaType, mapPizzaType } from '../constants/pizza';
-import { CartStateItem } from './get-cart-details';
+import { PizzaSize, PizzaType, mapPizzaType } from "../constants/pizza";
+import { CartStateItem } from "./get-cart-details";
 
 export const getCartItemDetails = (
-  ingredients: CartStateItem['ingredients'],
+  ingredients: CartStateItem["ingredients"],
   pizzaType?: PizzaType,
-  pizzaSize?: PizzaSize,
+  pizzaSize?: PizzaSize
 ): string => {
   const details = [];
 
@@ -17,5 +17,5 @@ export const getCartItemDetails = (
     details.push(...ingredients.map((ingredient) => ingredient.name));
   }
 
-  return details.join(', ');
+  return details.join(", ");
 };
