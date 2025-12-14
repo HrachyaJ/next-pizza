@@ -1,4 +1,5 @@
 import React from "react";
+import { DELIVERY_PRICE, TAX_RATE } from "@/constants/pricing";
 
 interface PayOrderProps {
   orderId: number;
@@ -7,8 +8,7 @@ interface PayOrderProps {
   itemsTotal?: number; // Опционально, если хотите показать разбивку
 }
 
-const DELIVERY_PRICE = 250; // Стоимость доставки в рублях
-const TAX_RATE = 0.15; // Налог 15%
+// Pricing constants moved to `@/constants/pricing`
 
 export const PayOrderTemplate: React.FC<PayOrderProps> = ({
   orderId,

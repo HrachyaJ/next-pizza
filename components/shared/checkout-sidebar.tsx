@@ -1,12 +1,12 @@
 import React from "react";
+import { DELIVERY_PRICE, VAT_PERCENT } from "@/constants/pricing";
 import { WhiteBlock } from "./white-block";
 import { CheckoutItemDetails } from "./checkout-item-details";
 import { ArrowRight, Package, Percent, Truck } from "lucide-react";
 import { Button, Skeleton } from "../ui";
 import { cn } from "@/lib/utils";
 
-const VAT = 15;
-const DELIVERY_PRICE = 250;
+// VAT_PERCENT and DELIVERY_PRICE are shared in `@/constants/pricing`
 
 interface Props {
   totalAmount: number;
@@ -19,7 +19,7 @@ export const CheckoutSidebar: React.FC<Props> = ({
   loading,
   className,
 }) => {
-  const vatPrice = (totalAmount * VAT) / 100;
+  const vatPrice = (totalAmount * VAT_PERCENT) / 100;
   // Доставка добавляется только если есть товары в корзине
   const deliveryPrice = totalAmount > 0 ? DELIVERY_PRICE : 0;
   const totalPrice = totalAmount + deliveryPrice + vatPrice;

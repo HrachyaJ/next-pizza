@@ -49,16 +49,16 @@ export const authOptions: AuthOptions = {
           return null;
         }
 
+        if (!findUser.verified) {
+          throw new Error("Почта не подтверждена");
+        }
+
         const isPasswordValid = await compare(
           credentials.password,
           findUser.password
         );
 
         if (!isPasswordValid) {
-          return null;
-        }
-
-        if (!findUser.verified) {
           return null;
         }
 

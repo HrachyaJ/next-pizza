@@ -1,14 +1,12 @@
 import { CartItemDTO } from "@/services/dto/cart.dto";
 import React from "react";
+import { DELIVERY_PRICE, TAX_RATE } from "@/constants/pricing";
 
 interface FailureProps {
   orderId: number;
   items: CartItemDTO[];
   totalAmount: number;
 }
-
-const DELIVERY_PRICE = 250; // Стоимость доставки в рублях
-const TAX_RATE = 0.15; // Налог 15%
 
 export const OrderFailureTemplate: React.FC<FailureProps> = ({
   orderId,

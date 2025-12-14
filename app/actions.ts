@@ -12,8 +12,7 @@ import { getUserSession } from "@/lib/get-user-session";
 import { VerificationUserTemplate } from "@/components/shared/email/verification-user";
 
 // Константы для расчета
-const DELIVERY_PRICE = 250;
-const TAX_RATE = 0.15;
+import { DELIVERY_PRICE, TAX_RATE } from "@/constants/pricing";
 
 export async function createOrder(data: CheckoutFormValues) {
   try {
